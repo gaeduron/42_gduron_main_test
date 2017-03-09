@@ -6,7 +6,7 @@
 /*   By: gduron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/07 22:46:15 by gduron            #+#    #+#             */
-/*   Updated: 2017/03/08 21:14:14 by gduron           ###   ########.fr       */
+/*   Updated: 2017/03/09 10:22:10 by gduron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void ft_putchar(char c);
 #include "../j02/ex04/ft_print_comb.c"
 #include "../j02/ex05/ft_print_comb2.c"
 #include "../j02/ex06/ft_putnbr.c"
-#include "../j02/ex07/ft_print_combn.c"
+//#include "../j02/ex07/ft_print_combn.c"
 
 void ft_putchar(char c)
 {
@@ -70,6 +70,6 @@ int main()
 	printf("answer3 : -2147483648\n");
 
 	printf("\n_________________\nEX07 :\n");
-	ft_print_combn(5);
+//	ft_print_combn(5);
 
 }
