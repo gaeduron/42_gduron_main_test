@@ -6,7 +6,7 @@
 /*   By: gduron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/08 22:21:07 by gduron            #+#    #+#             */
-/*   Updated: 2017/03/09 23:24:00 by gduron           ###   ########.fr       */
+/*   Updated: 2017/03/10 12:17:14 by gduron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,12 +91,13 @@ int main()
 
 
 	printf("\n_________________\nEX09 :\n");
-	int tab[] = {2, 3, 8, 0, 5};
+	int tab[] = {2, 3, 8, 0, 5, -6};
 	int i = 0;
-	while (i < 5)
+	while (i < 6)
 		printf("%d", tab[i++]);
 	i = 0;
 	ft_sort_integer_table(tab, 5);
-	while (i < 5)
+	printf(" < base | sorted >");
+	while (i < 6)
 		printf("%d", tab[i++]);
 }
