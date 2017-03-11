@@ -6,7 +6,7 @@
 /*   By: gduron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/08 22:21:07 by gduron            #+#    #+#             */
-/*   Updated: 2017/03/10 16:25:21 by gduron           ###   ########.fr       */
+/*   Updated: 2017/03/11 20:55:34 by gduron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,9 +64,9 @@ int main()
 	printf("%d < you | answer > 10 \n",ft_sqrt(-100));
 
 	printf("\n_________________\nEX06 :\n");
-	printf("%d < you | answer > 10 \n",ft_is_prime(41));
-	printf("%d < you | answer > 10 \n",ft_is_prime(101));
-	printf("%d < you | answer > 10 \n",ft_is_prime(120));
+	printf("%d < you | answer > 1 \n",ft_is_prime(41));
+	printf("%d < you | answer > 1 \n",ft_is_prime(101));
+	printf("%d < you | answer > 0 \n",ft_is_prime(120));
 
 	printf("\n_________________\nEX07 :\n");
 
