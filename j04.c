@@ -6,7 +6,7 @@
 /*   By: gduron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/08 22:21:07 by gduron            #+#    #+#             */
-/*   Updated: 2017/03/12 12:11:07 by gduron           ###   ########.fr       */
+/*   Updated: 2017/03/12 17:13:24 by gduron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void ft_putchar(char c);
 #include "../j04/ex06/ft_is_prime.c"
 #include "../j04/ex07/ft_find_next_prime.c"
 #include "../j04/ex08/ft_eight_queens_puzzle.c"
-//#include "../j04/ex09/ft_sort_integer_table.c"
+#include "../j04/ex09/ft_eight_queens_puzzle_2.c"
 
 void ft_putchar(char c)
 {
@@ -98,4 +98,5 @@ int main()
 	printf("%d < you | answer > 92\n", ft_eight_queens_puzzle());
 
 	printf("\n_________________\nEX09 :\n");
+	ft_eight_queens_puzzle_2();
 }
